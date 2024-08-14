@@ -1,4 +1,4 @@
-# import subprocess
+import subprocess
 
 def change_author(old_author_name, new_author_name, new_author_email):
     # Run git filter-branch to rewrite the author information
